@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mundipagg.challenge.api:
+    image: mundipagg.challenge.api
+    build:
+      context: ./MundiPagg.Challenge.API
+      dockerfile: Dockerfile
